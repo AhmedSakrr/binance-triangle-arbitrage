@@ -1,0 +1,53 @@
+{
+
+    "KEYS": {
+        "API": "N4M3ayxKt6lNRfe2FjCCxbiDZG34IPiVxgxWDjipqgBbVWLkvT1OYDFrNPgBpp2L",
+        "SECRET": "af823i78c4iBF9LkmzdzKCbs5NEsePD4NbDiQG78g12Bg7TvBEHlvgy3p5Lb112a"
+    },
+
+    "INVESTMENT": {
+        "BTC": {
+            "MIN": 0.00036,
+            "MAX": 0.00093,
+            "STEP": 0.00033
+        }
+    },
+
+    "SCANNING": {
+        "DEPTH": 5000,
+        "WHITELIST": ["BTC", "BNB", "ETH"]
+	"BLACKLIST": ["BUST", "AVAX"]
+    },
+
+    "EXECUTION": {
+        "ENABLED": false,
+        "CAP": 0,
+        "STRATEGY": "linear",
+        "TEMPLATE": ["BUY", "SELL", "SELL"],
+        "FEE": 0.075,
+        "THRESHOLD": {
+            "PROFIT": 1.40,
+            "AGE": 2000
+        }
+    },
+
+    "HUD": {
+        "ENABLED": true,
+        "ROWS": 215,
+        "REFRESH_RATE": 500
+    },
+
+    "LOG": {
+        "LEVEL": "debug",
+        "PRETTY_PRINT": true,
+        "STATUS_UPDATE_INTERVAL": 2
+    },
+
+    "WEBSOCKET": {
+        "BUNDLE_SIZE": 4,
+        "INITIALIZATION_INTERVAL": 200
+    },
+
+    "BINANCE_OPTIONS": {"useServerTime": true}
+
+}
