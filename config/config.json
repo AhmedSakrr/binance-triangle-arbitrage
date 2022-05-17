@@ -48,6 +48,8 @@
         "INITIALIZATION_INTERVAL": 200
     },
 
-    "BINANCE_OPTIONS": {"useServerTime": true}
+    "BINANCE_OPTIONS": {
+        "useServerTime": true
+    }
 
 }
