@@ -1,3 +1,5 @@
+Error: Timed out waiting for all watched tickers to receive a depth update
+
 Binance Spot Test Network Error;
 
 Using test network API, getting the error below;
