@@ -97,7 +97,13 @@ const MarketCache = {
             if (!CONFIG.SCANNING.WHITELIST.includes(b)) return;
             if (!CONFIG.SCANNING.WHITELIST.includes(c)) return;
         }
-
+        
+        if (CONFIG.SCANNING.BLACKLIST.length > 0) {
+            if (CONFIG.SCANNING.BLACKLIST.includes(a)) return;
+            if (CONFIG.SCANNING.BLACKLIST.includes(b)) return;
+            if (CONFIG.SCANNING.BLACKLIST.includes(c)) return;
+        }
+        
         const ab = MarketCache.getRelationship(a, b);
         if (!ab) return;
         if (CONFIG.EXECUTION.TEMPLATE[0] !== '*' && CONFIG.EXECUTION.TEMPLATE[0] !== ab.method) return;
