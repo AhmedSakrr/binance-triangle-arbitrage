@@ -29,13 +29,13 @@ at processTimers (node:internal/timers:510:7)
 Solution:-
 
 change the node-binance-api version in package.json to 0.13.0
-++++++++++++++++++++++++
+++++++++++
 
 Author's bot says:-
 
 Haven't updated this project in quite some time. When everything executes in a timely manner, profit will be realized in the base asset. So if your base asset is ETH, then the system is calculating a trade that would net a positive increase of ETH. As always be careful when trading crypto
 
-++++++++++++++++++++++++
+++++++++++
 
 https://github.com/bmino/binance-triangle-arbitrage/issues/148
 https://github.com/bmino/binance-triangle-arbitrage/issues/149
