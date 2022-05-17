@@ -27,13 +27,13 @@
         "FEE": 0.075,
         "THRESHOLD": {
             "PROFIT": 1.50,
-            "AGE": 2500
+            "AGE": 1000
         }
     },
 
     "HUD": {
-        "ENABLED": true,
-        "ROWS": 215,
+        "ENABLED": false,
+        "ROWS": 3,
         "REFRESH_RATE": 500
     },
 
