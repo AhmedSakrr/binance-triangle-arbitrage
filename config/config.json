@@ -15,7 +15,7 @@
 
     "SCANNING": {
         "DEPTH": 5000,
-        "WHITELIST": ["BTC", "BNB", "ETH"]
+        "WHITELIST": ["BTC", "BNB", "ETH"],
 	"BLACKLIST": ["BUST", "AVAX"]
     },
 
