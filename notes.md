@@ -28,7 +28,7 @@ at processTimers (node:internal/timers:510:7)
 
 Solution:-
 
-change the node-binance-api version in package.json to 0.13.0
+change the node-binance-api version in package.json to 0.13.0 or the latest version currently it's 0.13.1
 
 ++++++++++++++++++++
 
